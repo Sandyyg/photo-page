@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photopage</title>
+</head>
+<body>
+ <style>
+    body {
+        display: block;
+        margin: 8px;
+         background:radial-gradient(879px at 10.4% 22.3%,rgb(235, 230, 226)  0%, rgb(168, 138, 107)93.6%);
+   text-align: center;
+        padding: 20px 24px 20px;
+        margin: 10px auto;
+        color:#fff
+      }
+      h1 {
+        font-family: Lateef;
+        text-align: center;
+        color: #fff;
+      }
+      h2 {
+        font-family: lateef;
+        font-size: 28px;
+        padding: 0 0 24px;
+         text-align: center;
+        color: #ffff;
+        margin: 5px;
+      }
+      p {
+        font-family: Lateef;
+        font-weight: lighter;
+        
+      }
+      h3 {
+        text-align: center;
+        font-family: Lateef;
+        font-weight: lighter;
+        font-size: 24px;
+        color: #ffff;
+      }
+     
+      img {
+        display:inline-block;
+        margin:0 auto;
+        opacity: 50%;
+        
+        
+       }
+    
+      img:hover {
+      opacity: 100%;
+      transition: all 200ms ease;
+      
+       }
+      button {
+        text-align: center;
+        color:#fff;
+        font-size: 14px;
+        display: block;
+        margin: 0 auto;
+        padding: 10px 15px 10px 15px;
+        border: 1px #755740;
+        border-radius: 25px;
+        box-shadow: 2px 5px 8px #442f1e;
+        font-family: lateef;
+        background-color: rgb(177, 147, 122);
+        transition: all 200ms ease;
+        cursor: pointer;
+      }
+
+      button:hover {
+        color: rgb(235, 230, 226);
+        background: #79553b;
+      }
+
+      .social {
+      font: medium;
+      color: rgb(32, 23, 6);
+      }
+      </style>
+      <h1>SANDY SNAPS PHOTOGRAPHY</h1>
+      <h2><em>maternity, baby, family photographer</em></h2>
+      <hr>
+      <p>
+        <img src="https://lh3.google.com/pw/AM-JKLVSQ0O0T8RJHXnJlpWAjhMcO6tPrepRksdM8FKMi58hZaITLOGowYjXIq-Efj9lEdMIachpwIMTMmGGipBSLG_ZABT1SJk=w1974-h1316-no?authuser=0" width="300">
+        <img src="https://lh3.google.com/pw/AM-JKLUMWv_JDDG8-wKPDKnvs5Nv87e43M32vK16EVDVENG11dKGPC1PiI32ZEOi8AdvSUdAhp8aBit3CsKS2JQiKonS9q8eWTg=w1974-h1316-no?authuser=0" width="300">
+        <img src="https://lh3.google.com/pw/AM-JKLXb-DSqBerrEwGOiON5G7XgOoXzWmWYQpbhhpi0yyOt-FGoARVFWm0CGiY_jDlYTiHiCmllL_aCscCb2be3ep5lLh7Lj2o=w1974-h1316-no?authuser=0" width="300">
+        <img src="https://lh3.googleusercontent.com/pw/ACtC-3cByAiVQ0GfhV3YPKHIIJtxIwDfhW5Woazw3GeiW4RL-uGihWZiPUCHLBpFMsZUJprN3tObvznTGQ47CuK0u1dX40Rb7AU7_Sl4pm4BuIXpULs-MBWJMBOeH_6knb_8vwkZ99XqYAbVQJWaMv_38Iuj=w945-h630-no?authuser=0" width="300">
+      </p>
+      <h3><strong>About Me</strong></h3>
+      <section>
+    
+        Hola!
+        <br>
+        <br>
+        My name is Sandy. I am a photographer and future Computer Programmer. I
+        have a BFA in Photography from Columbia College Chicago. I have been
+        photographing families and children for 10 plus years now! Love to get
+        SNAP happy by photographing and creating your life's most important
+        moments. Nothing gives me greater joy than capturing the moments that make
+        up your family’s story. Whether you are just entering parenthood or
+        already have a walking/talking toddler at home, one fact remains the same…
+        photographs of your family are true gifts that are forever cherished. From
+        maternity photos to newborn sessions, milestone sessions &amp; beyond, every
+        single moment in your family’s story is worth preserving. 
+    </section>
+        
+        <a href="https://facebook.com/SandySnapsPhotography" target="_blank" class="social">
+            <em>Check out my Facebook Page!</em> <br> <br> 
+    
+           </a>
+           <button>BOOK YOUR 
+            <div>SESSION TODAY!</div></button>
+            <script>
+                function book() {
+                let name = prompt("What is your name?");
+                let email = prompt("What is your e-mail?");
+                alert("Thank you, " + name + "! We will contact you shortly");
+              }
+              let booknowbutton = document.querySelector("button");
+              booknowbutton.addEventListener("click", book);
+              </script>
+              <p>Coded by Sandy Gomez</p>
+</body>
+</html>
